@@ -6,7 +6,7 @@ st.subheader("Your one-stop shop for online learning")
 
 # Navigation bar (optional)
 st.sidebar.header("Explore LearnIt!")
-options = st.sidebar.radio("Select a subject:", ("All Subjects", "Math", "Science", "History", "home science"))
+options = st.sidebar.radio("Select a subject:", ("All Subjects", "Math", "Science", "History", "geography"))
 
 # Content based on user selection
 if options == "All Subjects":
@@ -34,8 +34,8 @@ elif options == "History":
     # Add placeholders for specific history courses
     st.write(" - World History: Ancient Civilizations")
     st.write(" - American History: The Founding Fathers")
-elif options == "home science":
-    st.header("HS Courses")
+elif options == "geography":
+    st.header("Geography Courses")
     st.write("Embark on a journey through time with our captivating HS courses!")
     # Add placeholders for specific history courses
     st.write(" - World History: Ancient Civilizations")
